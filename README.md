@@ -73,6 +73,7 @@ Fig.7: Reactome dotplot- Reactome pathway enrichment of significant differential
 Fig.8: Reactome GSEA dotplot-GSEA highlights coordinated dysregulation of cell-cycle control, liver-specific detoxification pathways, immune signaling, and metabolic processes, which together capture the biological complexity of hepatocellular carcinoma.
 
 ![GSEA Score Plot](figures/GSEA_reactome_score_plot.png)
+
 Fig.9: GSEA reactome Score plot- GSEA revealed significant negative enrichment of the Complement Cascade pathway, indicating coordinated downregulation of complement-related immune genes in tumor samples, suggesting suppression of innate immune responses in LIHC.
 
 Survival Analysis

@@ -38,14 +38,17 @@ This analysis integrates differential expression, pathway enrichment, and surviv
 Differential Expression & Visualization
 
 ![Volcano Plot](figures/volcano_plot.png)
+
 Fig.1: Volcano plot- Genes were considered significantly differentially expressed based on an adjusted p-value (FDR, Benjamini–Hochberg) < 0.05 and an absolute log₂ fold change > 1, ensuring both statistical significance and biological relevance. Genes were classified as upregulated or downregulated depending on their relative expression in tumor versus normal liver samples.
 The volcano plot summarizes differential expression results, with the x-axis representing log₂ fold change and the y-axis representing −log₁₀ adjusted p-value. Vertical dashed lines indicate the fold-change threshold (|log₂FC| = 1), and the horizontal dashed line denotes the FDR cutoff (0.05). Genes outside these thresholds represent the most confident and biologically meaningful differentially expressed genes.
 The analysis reveals extensive transcriptional dysregulation in TCGA-LIHC tumors. Several genes associated with cell cycle progression and oncogenic signaling, including PLVAP, CDC25C, and UBE2T, are strongly upregulated. In contrast, liver-specific and endothelial genes such as CLEC4M, CLEC1B, and GDF2 are markedly downregulated, reflecting loss of normal hepatic and vascular functions. Together, these patterns highlight key molecular alterations underlying hepatocellular carcinoma.
 
 ![Heatmap of Top 50 DEGs](figures/Heatmap.png)
+
 Fig.2: Heatmap- This heatmap shows the top 50 most significant DEGs between tumor and normal liver samples. Rows are genes, columns are samples, and values are Z-score scaled per gene. The clustering clearly separates tumor and normal samples, indicating strong biological signal. Upregulated genes show higher expression in tumors, while downregulated genes reflect loss of normal liver functions.
 
 ![PCA Plot](figures/PCA plot.png)
+
 Fig.3: PCA plot- Principal Component Analysis of the top 50 differentially expressed genes shows clear separation between TCGA-LIHC tumor and normal samples. PC1 explains 59.2% of the variance and distinctly separates tumor from normal tissue, indicating that disease status is the dominant source of transcriptional variation. Tumor samples exhibit greater heterogeneity compared to normal liver tissue, reflecting known biological diversity in hepatocellular carcinoma.
 
 Functional Enrichment (GO / KEGG / Reactome / GSEA)

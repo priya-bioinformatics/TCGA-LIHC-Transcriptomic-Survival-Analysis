@@ -1,4 +1,7 @@
 # TCGA-LIHC-Transcriptomic-Survival-Analysis
+
+**Author:** [Priya Bhuiya](https://github.com/priya-bioinformatics)
+
 **Project Summary**
 This project analyzes TCGA-LIHC STAR-aligned RNA-seq data to identify differentially expressed genes, interpret dysregulated biological pathways, and evaluate prognostic biomarkers using survival analysis. The focus is on combining statistical rigor, biological interpretation, and clinical relevance.
 
